@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlipkartTest]">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.qa.auto.Flipkart.HomeTest">
+        <methods>
+          <include name="closingapplicaiton"/>
+          <include name="openbrowser"/>
+          <include name="BUSHIRELOGIC"/>
+          <include name="TRIPLOGIC"/>
+        </methods>
+      </class> <!-- com.qa.auto.Flipkart.HomeTest -->
+      <class name="com.qa.auto.Flipkart.LoginTest">
+        <methods>
+          <include name="launchapplicaiton"/>
+          <include name="closingbrowser"/>
+          <include name="openbrowser"/>
+          <include name="closingapplicaiton"/>
+        </methods>
+      </class> <!-- com.qa.auto.Flipkart.LoginTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [FlipkartTest] -->

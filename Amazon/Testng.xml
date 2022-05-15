@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<suite name="AMAZON TEST">
+<Test name= "Regression">
+<classes>
+<class name="com.qa.am.Amazon.LoginTest"/>
+<class name="com.qa.am.Amazon.LogoutTest"/>
+</classes>
+</Test>
+</suite>

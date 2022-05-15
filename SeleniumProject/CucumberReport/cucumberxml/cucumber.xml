@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.625">
+<testcase classname="OrangeHRM_Login" name="Verification" time="0.212">
+<system-out><![CDATA[Given userlogin.............................................................passed
+When enter username.........................................................passed
+And enter password..........................................................passed
+Then click on loginbtn......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon_Login" name="Verification of Mobile" time="0.01">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enter username....................................................passed
+And user enter password.....................................................passed
+Then user click on loginbtn.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

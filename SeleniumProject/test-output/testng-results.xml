@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AmazonCloud" duration-ms="31289" started-at="2022-01-09T16:01:10Z" finished-at="2022-01-09T16:01:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31289" started-at="2022-01-09T16:01:10Z" finished-at="2022-01-09T16:01:41Z">
+      <class name="com.qa.dlp.SeleniumProject.LoginTest">
+        <test-method status="PASS" signature="OpenApplicaiton()[pri:0, instance:com.qa.dlp.SeleniumProject.LoginTest@18355a8]" name="OpenApplicaiton" is-config="true" duration-ms="0" started-at="2022-01-09T21:31:10Z" finished-at="2022-01-09T21:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplicaiton -->
+        <test-method status="PASS" signature="Electronics()[pri:1, instance:com.qa.dlp.SeleniumProject.LoginTest@18355a8]" name="Electronics" duration-ms="12643" started-at="2022-01-09T21:31:10Z" finished-at="2022-01-09T21:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Electronics -->
+        <test-method status="PASS" signature="AccountDetails()[pri:2, instance:com.qa.dlp.SeleniumProject.LoginTest@18355a8]" name="AccountDetails" duration-ms="18608" started-at="2022-01-09T21:31:23Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountDetails -->
+        <test-method status="PASS" signature="Closingapp()[pri:0, instance:com.qa.dlp.SeleniumProject.LoginTest@18355a8]" name="Closingapp" is-config="true" duration-ms="0" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closingapp -->
+      </class> <!-- com.qa.dlp.SeleniumProject.LoginTest -->
+      <class name="com.qa.dlp.SeleniumProject.HomePageTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.qa.dlp.SeleniumProject.HomePageTest@1fa1d9b]" name="OpenBrowser" is-config="true" duration-ms="15" started-at="2022-01-09T21:30:14Z" finished-at="2022-01-09T21:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.qa.dlp.SeleniumProject.LoginTest@18355a8]" name="OpenBrowser" is-config="true" duration-ms="56465" started-at="2022-01-09T21:30:14Z" finished-at="2022-01-09T21:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenApplicaiton()[pri:0, instance:com.qa.dlp.SeleniumProject.HomePageTest@1fa1d9b]" name="OpenApplicaiton" is-config="true" duration-ms="1" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplicaiton -->
+        <test-method status="PASS" signature="Add()[pri:1, instance:com.qa.dlp.SeleniumProject.HomePageTest@1fa1d9b]" name="Add" duration-ms="2" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add -->
+        <test-method status="PASS" signature="Remove()[pri:2, instance:com.qa.dlp.SeleniumProject.HomePageTest@1fa1d9b]" name="Remove" duration-ms="2" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Remove -->
+        <test-method status="PASS" signature="Closingapp()[pri:0, instance:com.qa.dlp.SeleniumProject.HomePageTest@1fa1d9b]" name="Closingapp" is-config="true" duration-ms="0" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closingapp -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.dlp.SeleniumProject.LoginTest@18355a8]" name="CloseBrowser" is-config="true" duration-ms="2243" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.qa.dlp.SeleniumProject.HomePageTest@1fa1d9b]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2022-01-09T21:31:41Z" finished-at="2022-01-09T21:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.dlp.SeleniumProject.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- AmazonCloud -->
+</testng-results>

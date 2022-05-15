@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon by packages]">
+  <test name="com.qa.am.Amazon(failed)">
+    <classes>
+      <class name="com.qa.am.Amazon.LoginTest">
+        <methods>
+          <include name="CorrectUser"/>
+          <include name="closeBrowser"/>
+          <include name="InCorrectUser"/>
+        </methods>
+      </class> <!-- com.qa.am.Amazon.LoginTest -->
+    </classes>
+  </test> <!-- com.qa.am.Amazon(failed) -->
+</suite> <!-- Failed suite [Amazon by packages] -->

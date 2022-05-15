@@ -1,0 +1,12 @@
+
+Scenario: Verification   # src/main/resources/Feature/HomePage.feature:2
+  Given userlogin        # StepDefination.HomePageStepDefination.AmazonLogin()
+  When enter username    # StepDefination.HomePageStepDefination.Username()
+  And enter password     # StepDefination.HomePageStepDefination.Password()
+  Then click on loginbtn # StepDefination.HomePageStepDefination.LoginBTN()
+
+Scenario: Verification of Mobile # src/main/resources/Feature/Login.feature:2
+  Given user is on login page    # StepDefination.LoginStepDefination.AmazonLogin()
+  When user enter username       # StepDefination.LoginStepDefination.Username()
+  And user enter password        # StepDefination.LoginStepDefination.Password()
+  Then user click on loginbtn    # StepDefination.LoginStepDefination.LoginBTN()

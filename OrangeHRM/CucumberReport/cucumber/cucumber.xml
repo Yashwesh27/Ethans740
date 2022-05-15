@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.501">
+<testcase classname="HomePageAmazon" name="AmazonShop" time="0.1">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on homepage...................................................passed
+When user click on item.....................................................undefined
+And user click on addtocart.................................................skipped
+Then user click on Payment..................................................skipped
+]]></failure>
+</testcase>
+<testcase classname="loginpage_OrangeHRM" name="Loginpage" time="0.006">
+<system-out><![CDATA[Given user is on loginpage..................................................passed
+When user enters Credentials................................................passed
+And user click on LoginBtn..................................................passed
+Then user is on homepage....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

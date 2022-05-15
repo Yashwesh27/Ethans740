@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-18T08:10:10.108Z",
+        "line": 2,
+        "name": "AmazonShop",
+        "description": "",
+        "id": "homepageamazon;amazonshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on homepage",
+            "match": {
+              "location": "StepDefination.LoginStepDef.Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user click on item",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user click on addtocart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user click on Payment",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HomePageAmazon",
+    "description": "",
+    "id": "homepageamazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/Homepage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-18T08:10:10.230Z",
+        "line": 2,
+        "name": "Loginpage",
+        "description": "",
+        "id": "loginpage-orangehrm;loginpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on loginpage",
+            "match": {
+              "location": "StepDefination.LoginStepDef.Loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters Credentials",
+            "match": {
+              "location": "StepDefination.LoginStepDef.Credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on LoginBtn",
+            "match": {
+              "location": "StepDefination.LoginStepDef.LoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on homepage",
+            "match": {
+              "location": "StepDefination.LoginStepDef.Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "loginpage_OrangeHRM",
+    "description": "",
+    "id": "loginpage-orangehrm",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/login.feature",
+    "tags": []
+  }
+]
