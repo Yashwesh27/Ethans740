@@ -1,0 +1,6 @@
+
+Scenario: Verify the Home Page           # src/main/resources/Feature/HomePage.feature:3
+  Given User is on LoginPage             # StepDefination.StepDefination.LoginPage()
+  When User enters Username and Password # StepDefination.StepDefination.Credenials()
+  And User click on Loginbtn             # StepDefination.StepDefination.loginbtn()
+  Then User is on HomePage               # StepDefination.StepDefination.Homepage()
